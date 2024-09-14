@@ -1,7 +1,7 @@
 
 # floater-xyz
 A zero code. Custom floating button for  any website or JS Framework. see demo.  
-<a href="https://pub-c1de1cb456e74d6bbbee111ba9e6c757.r2.dev/floater-xyz.html">Floater-xyz- demo</a>
+<a href="https://pub-c1de1cb456e74d6bbbee111ba9e6c757.r2.dev/floater-xyz.html">floater-xyz- demo</a>
 
 ###  install
 ```
