@@ -1,7 +1,10 @@
 
 # floater-xyz
-A zero code. Custom floating button for  any website or JS Framework. see demo.  
-<a href="https://pub-c1de1cb456e74d6bbbee111ba9e6c757.r2.dev/floater-xyz.html">floater-xyz- demo</a>
+
+[![Node.js Package](https://github.com/sudo-self/floater-buttons/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/sudo-self/floater-buttons/actions/workflows/npm-publish.yml)
+
+A zero code. Custom floating button for  any website or JS Framework. 
+<a href="https:/floater.jessejesse.xyz">floater-xyz</a>
 
 ###  install
 ```
