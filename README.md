@@ -14,9 +14,6 @@ npm i floater-xyz
 ```
 npx floater-xyz
 ```
-```
-npm i floater-xyz
-```
 
 1. Enter the url the button will link to
 
