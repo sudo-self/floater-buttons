@@ -20,7 +20,7 @@ cat <<EOL > floater.js
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         transition: background-color 0.3s ease;
         z-index: 1000;
-        border-radius: 50%; /* Changed to circle */
+        border-radius: 50%;
         width: 60px;
         height: 60px;
         background-color: ${floater_color};
@@ -92,6 +92,31 @@ cat <<EOL > floater.js
     document.body.appendChild(button);
     document.body.appendChild(popup);
 
+    // Drag-and-drop functionality
+    let isDragging = false;
+    let offsetX, offsetY;
+
+    button.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      offsetX = e.clientX - button.getBoundingClientRect().left;
+      offsetY = e.clientY - button.getBoundingClientRect().top;
+      document.addEventListener('mousemove', onMouseMove);
+      document.addEventListener('mouseup', onMouseUp);
+    });
+
+    function onMouseMove(e) {
+      if (isDragging) {
+        button.style.left = \`\${e.clientX - offsetX}px\`;
+        button.style.top = \`\${e.clientY - offsetY}px\`;
+      }
+    }
+
+    function onMouseUp() {
+      isDragging = false;
+      document.removeEventListener('mousemove', onMouseMove);
+      document.removeEventListener('mouseup', onMouseUp);
+    }
+
     function openPopup() {
       document.getElementById('popup').style.display = 'block';
     }
@@ -134,3 +159,4 @@ cat <<EOL > index.html
 EOL
 
 echo "Floater.xyz Button is complete!"
+
