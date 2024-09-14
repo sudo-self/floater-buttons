@@ -1,0 +1,32 @@
+{
+  "name": "floater-xyz",
+  "version": "2.0.5",
+  "description": "custom corner floating button easily hosted on any website or project",
+  "bin": {
+    "floater-xyz": "./make_floater.sh"
+  },
+  "scripts": {
+    "test": "echo \\\"No tests specified\\\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-self/Floater-xyz.git"
+  },
+  "keywords": [
+    "floater",
+    "button",
+    "jessejesse",
+    "xyz",
+    "awesome",
+    "buttons"
+  ],
+  "author": "Jesse Roper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudo-self/Floater-xyz"
+  },
+  "homepage": "https://floater.jessejesse.xyz",
+  "dependencies": {
+    "floater-xyz": "^1.0.0"
+  }
+}
