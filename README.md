@@ -33,4 +33,4 @@ sleek modern and out of the way
 
 to remove the button you can delete the file or simply place a hash tag before the file #<code>floater.js</code><br>
 
-[GitHub Repo](https://Github.com/sudo-self/Floater-xyz)
+[GitHub Repo](https://Github.com/sudo-self/floater-buttons)
