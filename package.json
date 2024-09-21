@@ -1,6 +1,6 @@
 {
   "name": "floater-xyz",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "custom corner floating button easily hosted on any website or project",
   "bin": {
     "floater-xyz": "./make_floater.sh"
